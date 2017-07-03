@@ -121,6 +121,6 @@ qemu and some iso. To come up a small tutorial to make it work the native code o
   Available [here](https://github.com/delouraoui/model-checker-ltl)
   This is an implementation of model checker which uses an encoding 
   of the model in the Presburger Arithmetic. This work was realized 
-  under the supervision of Arnaud Sangnier and is based mainly on this paper:
+  under the supervision of Arnaud Sangnier and is mainly based on this paper:
   "Equivalence Between Model-Checking Flat Counter Systems and Presburger Arithmetic".
   To come up a usage notice. 
