@@ -74,45 +74,53 @@ you'll need to install one dependencies, which is merlin, by simply ``` opam ins
 ``` 
 
 Where -V is the verbose mode, -T with true enable the type checker and -I stand for enabling or disabling the interpreter.
-	 
-	 
+If you want generate and test a MIPS native code it could be better to use a virtual machine. For my part I advice to use 
+qemu and some iso. To come up a small tutorial to make it work the native code on a virtual machine.
+
 # Toy complier for Jvm architecture
    Available [here](https://github.com/delouraoui/Jvm-Compiler).  
-   We have also make another back-end compiler for the Hopix language 
-   which aims a JVM architecture. It implement 2 
-   way of compile it. One use a naïve compilation
-   and the seconde use a Cps transformation to 
-   compute the size max of the stack. Seconde 
-   way is a good optimisation of compilation 
-   of functional planguage with closures. This project 
-   was realized in the compilation course of the second year 
-   masters of Paris 7 given by [Pierre Letouzey](https://www.irif.fr/users/letouzey/edu).
+    We have also make another back-end compiler for the Hopix language which 
+	aims a JVM architecture. It implements 2  way of compiling it. One uses a 
+	naïve compilation and the seconde uses a Cps transformation to compute the 
+	size max of the stack. Seconde way is a good optimization of the compilation 
+	of functional language with closures. This project was realized in the 
+	compilation course of the second year masters of Paris 7 
+	given by [Pierre Letouzey](https://www.irif.fr/users/letouzey/edu).
 
 
 # Consistency of Peaono arithmetics in Coq
    Available [here](https://github.com/delouraoui/Consistency-of-PA/blob/master/PA_Consistency.v).<br/>	
-   The goal of this exercise is 
-   to show the soundness of a transformation
-   on formulae of first-order predicate logic. The transformation used in this
-   project was the negated-translation of Godël.
-   This translation is used as a embedding of formulas from the intuitionist logic to the classical logic.
-   Using an interpretation of formula as Coq propositions, the consistency
-   of Peano Arithmetic (PA) will be shown.
-   This project was realized in the Proof Assistants (MPRI 2-7-2) of the MPRI
-   master.
+   The goal of this exercise is to show the soundness of a transformation on formulae of first-order predicate 
+   logic. The transformation used in this project was the negated-translation of Godël. This translation is used 
+   as an embedding of formulas from the intuitionist logic to the classical logic. Using an interpretation of 
+   formula as Coq propositions, the consistency of Peano Arithmetic (PA) will be shown. This project was realized 
+   in the Proof Assistants (MPRI 2-7-2) of the MPRI master.
    
 # Formalization in Coq of complexity of Skew lists
   Available [here](https://github.com/delouraoui/skew-list/blob/master/Skew.v).  
   This is a project realized in the course "Preuves Assistées par Ordinateur" given 
-  by Pierre Letouzey. We will show the complexity and property of several operations
-  overs the beautifully data structure which call Skew List. This structure was originally
+  by Pierre Letouzey. We will show the complexity and property of several operations 
+  on the beautiful data structure which is called Skew List. This structure was originally 
   proposed by Okasaki's in his book "Purely Functional Data Structures".
 	  
 	
 # Proof in Coq of the IE property for the Linear Substitution (Ls)
 	
-  Available [here].  
+  Available [here](https://www-lipn.univ-paris13.fr/~mayero/IE/)  
+  This work is the result of previous internships, carried out at the LIPN.
+  My advisors were Micaela Mayero and Damiano Mazza. We have formalized the preservation 
+  of strong normalization, which is the main result on the explicit substitutions calculus 
+  called linear substitution developed by Beniamino Accattoli and Delia Kesner. 
+  For more details you could look in the unpublished article about this formalization 
+  [here](/links/IEproperty.pdf)
   
 	
 
 # Model checker for ltl formula Smt based
+	
+  Available [here](https://github.com/delouraoui/model-checker-ltl)
+  This is an implementation of model checker which uses an encoding 
+  of the model in the Presburger Arithmetic. This work was realized 
+  under the supervision of Arnaud Sangnier and is based mainly on this paper:
+  "Equivalence Between Model-Checking Flat Counter Systems and Presburger Arithmetic".
+  To come up a usage notice. 
