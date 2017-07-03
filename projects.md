@@ -69,8 +69,8 @@ you'll need to install one dependencies, which is merlin, by simply ``` opam ins
    which corresponds to the elimination of pattern-matching, Fopix that explicit the closures, 
    Retrolix which erase function and allocate the memory and the last one Mips that towards the
    Mips architecture. Before the last pass, we do an optimization on register allocation. Typically 
-   we use a graph coloring to know the usages of variables in the program which allow us to fix some 
-   registers and so reduce the size of the stack at the runtime.there is sometimes a bugs in the optimization 
+   we use a graph coloring to know the usages of variables in the program. This allow us to fix some 
+   registers and so reduce the size of the stack at the runtime. There is sometimes a bugs in the optimization 
    process, then it can be disable if it appears! This can be done in the file RetrolixToMips.ml
    The generic command is: 
 ```
