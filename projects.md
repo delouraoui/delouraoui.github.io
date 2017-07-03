@@ -59,7 +59,7 @@ For more details about the syntax you could look in the bnf [here](https://githu
 This project have been realized in OCaml. The most simply way 
 to install OCaml is to use [opam](https://opam.ocaml.org/doc/1.1/Quick_Install.html). Then 
 you'll need to install one dependencies, which is merlin, by simply ``` opam install merlin```.	 
- To compile you'll use the following command:
+ To compile you'll should use the following command:
 ```
  make
 ```
