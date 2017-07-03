@@ -19,10 +19,11 @@ tags: [Compilation, Coq]
 # Toy complier for Mips-Gcc architecture
 
    Available [here](https://github.com/delouraoui/Mips-Gcc-Compiler).  
-   Here you'll find a native compiler for MIPS 32 architecture.
-   It implement a small functional language with type inference. Small but not so much... This compiler is a project was proposed by Yann Régis-Gianas 
-   and Pierre Letouzey for the compilation course of the first year of CS  master of Paris 7.
-    The generals features for this language are the followings:  
+   Here you'll find a native compiler for MIPS 32 architecture. It implements a 
+   small functional language with type inference. Small but not so much... This 
+   project was proposed by Yann Régis-Gianas and Pierre Letouzey for the compilation 
+   course of the first year of CS  master of Paris 7. The generals features for this 
+   language are the followings:  
    <br/>
    Anonymous function:
 	   
