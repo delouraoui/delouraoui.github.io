@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /projects/
-title: Personnal work 
+title: Personnal projects 
 description: "Some work"
 tags: [Compilation, Coq]
 ---
@@ -16,7 +16,7 @@ tags: [Compilation, Coq]
 </div>
 </section><!-- /#table-of-contents -->
 
-# Toy complier for Mips-Gcc architecture
+# Toy compiler for Mips-Gcc architecture
 
    Available [here](https://github.com/delouraoui/Mips-Gcc-Compiler).  
    Here you'll find a native compiler for MIPS 32 architecture. It implements a 
@@ -81,7 +81,7 @@ Where -V is the verbose mode, -T with true enable the type checker and -I stand 
 If you want generate and test a MIPS native code it could be better to use a virtual machine. For my part I advice to use 
 qemu and some iso. To come up a small tutorial to make it work the native code on a virtual machine.
 
-# Toy complier for Jvm architecture
+# Toy compiler for Jvm architecture
    Available [here](https://github.com/delouraoui/Jvm-Compiler).  
     We have also make another back-end compiler for the Hopix language which 
 	aims a JVM architecture. It implements 2  way of compiling it. One uses a 
