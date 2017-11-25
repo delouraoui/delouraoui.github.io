@@ -22,7 +22,7 @@ Haniel Barbosa, Jasmin Christian Blanchette, Simon Cruanes, Daniel El Ouraoui, a
   This is a formalization of the proof of Beniamino Accattoli of the preservation of the strong normalization of 
   linear substitution realized in L3 and M1 internships, at the LIPN.
   My advisors were Micaela Mayero and Damiano Mazza. 
-  For more details you could look in the unpublished article about this formalization 
+  For more details you may look in the unpublished article about this formalization 
   [here](/links/IEproperty.pdf)
 
 
