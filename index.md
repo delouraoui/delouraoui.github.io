@@ -6,10 +6,24 @@ tags: [logic, functional, programming]
 modified: 1-7-2017
 ---
 
-I am Phd student at Inria Nancy in the VeriDis team and I'm part of the the [Matryoshka](http://matryoshka.gforge.inria.fr/#Team) project. The main goal of my internship is to design a higher-order Smt-solver. My supervisors are **Pascal Fontaine** and  **Jasmin Christian Blanchette**. 
+I am a Phd student at Inria Nancy in the VeriDis team and I'm part of the the [Matryoshka](http://matryoshka.gforge.inria.fr/#Team) project. The main goal of my internship is to design a higher-order Smt-solver. My supervisors are **Pascal Fontaine** and  **Jasmin Christian Blanchette**. 
 I'm graduated of MSc degree in Computer Sciences from **University of Paris Diderot**([MPRI](https://wikimpri.dptinfo.ens-cachan.fr/doku.php)) in 2017.
 
 ---
+# Projects
+
+
+## Language and proofs for higher-order SMT (work in progress)
+Haniel Barbosa, Jasmin Christian Blanchette, Simon Cruanes, Daniel El Ouraoui, and Pascal Fontaine. Accepted at 5th Workshop on Proof eXchange for Theorem Proving (PxTP 2017). [Preprint (PDF)](http://matryoshka.gforge.inria.fr/pubs/PxTP2017.pdf) 
+
+## Proof in Coq of the IE property for the Linear Substitution (Ls)
+	
+  Available [here](https://www-lipn.univ-paris13.fr/~mayero/IE/)  
+  This is a formalization of the proof of Beniamino Accattoli of the preservation of the strong normalization of 
+  linear substitution realized in L3 and M1 internships, at the LIPN.
+  My advisors were Micaela Mayero and Damiano Mazza. 
+  For more details you could look in the unpublished article about this formalization 
+  [here](/links/IEproperty.pdf)
 
 
 
