@@ -18,7 +18,7 @@ Haniel Barbosa, Jasmin Christian Blanchette, Simon Cruanes, Daniel El Ouraoui, a
 
 ### Proof in Coq of the IE property for the Linear Substitution (Ls)
 	
-  Available [here](https://www-lipn.univ-paris13.fr/~mayero/IE/)  
+  Code [here](https://www-lipn.univ-paris13.fr/~mayero/IE/)  
   This is a formalization of the proof of Beniamino Accattoli of the preservation of the strong normalization of 
   linear substitution realized in L3 and M1 internships, at the LIPN.
   My advisors were **Micaela Mayero** and **Damiano Mazza**. 
