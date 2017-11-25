@@ -13,10 +13,10 @@ I'm graduated of MSc degree in Computer Sciences from ([MPRI](https://wikimpri.d
 # Projects
 
 
-## Language and proofs for higher-order SMT (work in progress)
+### Language and proofs for higher-order SMT (work in progress)
 Haniel Barbosa, Jasmin Christian Blanchette, Simon Cruanes, Daniel El Ouraoui, and Pascal Fontaine. Accepted at 5th Workshop on Proof eXchange for Theorem Proving (PxTP 2017). [Preprint (PDF)](http://matryoshka.gforge.inria.fr/pubs/PxTP2017.pdf) 
 
-## Proof in Coq of the IE property for the Linear Substitution (Ls)
+### Proof in Coq of the IE property for the Linear Substitution (Ls)
 	
   Available [here](https://www-lipn.univ-paris13.fr/~mayero/IE/)  
   This is a formalization of the proof of Beniamino Accattoli of the preservation of the strong normalization of 
