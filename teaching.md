@@ -28,12 +28,23 @@ système d'exploitation Unix.
 The C Programming Language.
 * Projet de normalisation du langage C entre 1983 et 1989, donnant naissance à la norme ANSI C89
 * Mise à jour de la norme ANSI en 1999 (C99) apportant d'importantes évolutions:
-    * mélange des déclarations et instructions dans le code 
-      	   {% highlight c %} for (int i = 0; i < 100; i++) {% endhighlight %}
-    * tableau à taille variable {% highlight c %} int v = 10; int tab[v]; {% endhighlight %}
-    * nouveaux types de données: {% highlight c %} bool, complex(nombre complexes), long long int {% endhighlight %}
+    * mélange des déclarations et instructions dans le code  
+    ```c 
+    for (int i = 0; i < 100; i++)
+    ```
+    * tableau à taille variable  
+    ```c 
+    int v = 10; int tab[v];  
+    ```
+    * nouveaux types de données: 
+    ```c 
+    bool, complex(nombre complexes), long long int 
+    ```
     * commentaires de ligne //
-    * littéraux composés {% highlight c %} if ((char []) {"bonjour"} == "bonjour") {% endhighlight %}
+    * littéraux composés 
+    ```c 
+    if ((char []) {"bonjour"} == "bonjour") 
+    ```
     expression jetable..[example](https://code-examples.net/fr/docs/c/language/compound_literal)
     * possibilité d'inliner les fonctions 
 * raffinement de la norme en 2011 (C11) avec notamment l'introduction du support pour la 
@@ -47,12 +58,17 @@ programmation multi-thread et un modèle mémoire (C11 memory model)
     * Un système de type plus stricte et renforcé
     * inlining
     * arguments de fonctions par défauts 
-    * constantes typées {% highlight c %} const char c = 'e'; {% endhighlight %}
+    * constantes typées
+    ```c
+    const char c = 'e'; 
+    ```
     * surcharge des arguments de fonctions
     * polymorphisme (templates)
     * exceptions (gestion des erreurs)
     * inférence de type et lambda expressions (c++11)
 * [lien](https://fr.wikipedia.org/wiki/C%2B%2B)
+
+
 <!--    Available [here](https://github.com/delouraoui/Mips-Gcc-Compiler).   -->
 <!--    Here you'll find a native compiler for MIPS 32 architecture. It implements a  -->
 <!--    small functional language with type inference. Small but not so much... This  -->
