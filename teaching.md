@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: Teaching 
 description: "Courses"
-tags: [Python]
+tags: [C/C++]
 ---
 
 <section id="table-of-contents" class="toc">
