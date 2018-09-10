@@ -8,8 +8,8 @@ url:              http://delouraoui.github.io
 owner:
   name:           Daniel El Ouraoui
   avatar:         bio-photo.png
-  bio:
-    "Happy-Programmer."
+  # bio:
+  #   "Happy-Programmer."
   email:          daniel.elouraoui@gmail.com
   facebook:       d.louraoui
   github:         delouraoui

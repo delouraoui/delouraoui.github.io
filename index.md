@@ -12,6 +12,9 @@ I'm graduated of MSc degree in Computer Sciences from ([MPRI](https://wikimpri.d
 ---
 # Projects
 
+###  Higher-order SMT solving (work in progress) 
+
+Haniel Barbosa, Andrew Reynolds, Pascal Fontaine, Daniel El Ouraoui, and Cesare Tinelli. In Dimitrova, R., D'Silva, V. (eds.), 16th International Workshop on Satisfiability Modulo Theories (SMT 2018). [Preprint (PDF)](http://matryoshka.gforge.inria.fr/pubs/hosmt_wip.pdf)
 
 ### Language and proofs for higher-order SMT (work in progress)
 Haniel Barbosa, Jasmin Christian Blanchette, Simon Cruanes, Daniel El Ouraoui, and Pascal Fontaine. Accepted at 5th Workshop on Proof eXchange for Theorem Proving (PxTP 2017). [Preprint (PDF)](http://matryoshka.gforge.inria.fr/pubs/PxTP2017.pdf) 
@@ -19,8 +22,8 @@ Haniel Barbosa, Jasmin Christian Blanchette, Simon Cruanes, Daniel El Ouraoui, a
 ### Proof in Coq of the IE property for the Linear Substitution (Ls)
 	
   Code [here](https://www-lipn.univ-paris13.fr/~mayero/IE/)  
-  This is a formalization of the proof of Beniamino Accattoli of the preservation of the strong normalization of 
-  linear substitution realized in L3 and M1 internships, at the LIPN.
+  This is a formalization of the proof of Beniamino Accattoli of the preservation of the 
+  strong normalization of linear substitution realized in L3 and M1 internships, at the LIPN.
   My advisors were **Micaela Mayero** and **Damiano Mazza**. 
   For more details you may look in the unpublished article about this formalization 
   [here](/links/IEproperty.pdf)
