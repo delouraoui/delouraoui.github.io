@@ -70,5 +70,4 @@ programmation multi-thread et un modèle mémoire (C11 memory model)
 
 
 ### Chaine de compilation
-
-[[img src=/home/delour/delouraoui.github.io/images/chaine_de_compilation_C.jpg alt=foobar]]
+![schema de compilation](/images/chaine_de_compilation_C.jpg)
