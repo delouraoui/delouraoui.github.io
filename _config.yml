@@ -11,7 +11,7 @@ owner:
   # bio:
   #   "Happy-Programmer."
   email:          daniel.elouraoui@gmail.com
-  facebook:       d.louraoui
+  # facebook:       d.louraoui
   github:         delouraoui
   # For Google Authorship https://plus.google.com/authorship
   # google_plus:    
@@ -39,26 +39,29 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:   Europe/Paris
 future:      true
-highlighter: rouge  
-#highlighter: true
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+# # highlighter: true
 markdown:    kramdown
-
+highlighter: rouge  
+# highlighter: pygments
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
-syntax_highlighter_opts:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+# syntax_highlighter_opts:
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   use_coderay: false
 
-  coderay:
-    line_numbers: 
-    line_numbers_start: 1
-    tab_width: 4
-    bold_every: 10
-    css: class
+#   coderay:
+#     line_numbers: 
+#     line_numbers_start: 1
+#     tab_width: 4
+#     bold_every: 10
+#     css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log",
